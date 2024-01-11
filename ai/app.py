@@ -9,7 +9,7 @@ openai.api_key = "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"
 app = Flask(__name__)
 
 
-@app.route('/')
+@app.route('https://twinnybloggers.github.io/Ai_blog_Writer/ai/')
 def home():
     return render_template('main.html')
 
